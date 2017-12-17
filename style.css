@@ -1,0 +1,252 @@
+body {
+  background-color: #000000;
+  color: #ffffff;
+  margin: 0;
+  font-family: "Helvetica", "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 1.4em;
+}
+a {
+  color: #ffffff;
+  text-decoration: underline;
+}
+a:hover {
+  color: #e6e6e6;
+}
+.navigation {
+  position: fixed;
+  width: 14em;
+}
+ul.nav {
+  list-style: none;
+  text-decoration: none;
+  line-height: 2em;
+  padding-left: 0;
+}
+ul.nav li.active a,
+ul.nav li:hover a {
+  background-color: #ffffff;
+  color: #000000;
+}
+ul.nav li a {
+  padding-left: 2em;
+  display: block;
+}
+.container {
+  position: relative;
+  margin-left: 14em;
+  padding-left: 1em;
+  padding-right: 1em;
+  height: 100%;
+  width: auto;
+  overflow: auto;
+  background-color: #ffffff;
+  color: #000000;
+}
+.container.no-sidebar {
+  margin-left: 0;
+}
+.container a {
+  color: #808080;
+}
+.footer {
+  height: 3em;
+  margin-top: 1em;
+  margin-left: -1em;
+  margin-right: -1em;
+  padding: 1em;
+  background-color: #000000;
+  color: #ffffff;
+}
+.form {
+  padding: 1em;
+  border: 1px solid #cccccc;
+  border-radius: 0.3em;
+  background: #FFFFFF;
+}
+.form label {
+  font-size: 0.75em;
+  display: block;
+}
+.form.signin label {
+  display: inline-block;
+  width: 20%;
+}
+.form.signin .form-group {
+  margin-bottom: 0.6em;
+}
+.form.signin .form-group {
+  margin-bottom: 0.6em;
+}
+.form.signin .checkbox,
+.form.signin .form-actions {
+  margin-left: 20%;
+}
+input:not([type=submit]):not([type=file]):not([type=checkbox]):not([type=radiobutton]) {
+  line-height: 1.8em;
+  padding: 0.4em;
+  background-color: #FFFFFF;
+  font-size: 0.8em;
+  width: 75%;
+  margin-right: 1em;
+}
+button,
+input[type="submit"] {
+  margin: 0.3em 0;
+  line-height: 2em;
+  font-size: 1em;
+  border-radius: 3px;
+  border: 1px solid #CCCCCC;
+  background-color: #ffffff;
+  color: #000000;
+}
+button.btn-primary,
+input[type="submit"].btn-primary {
+  background-color: #ff5454;
+  color: #ffffff;
+}
+button.btn-primary:hover,
+input[type="submit"].btn-primary:hover {
+  background-color: #ff2121;
+}
+button.btn-primary:active,
+input[type="submit"].btn-primary:active {
+  background-color: #ed0000;
+}
+button:hover,
+input[type="submit"]:hover {
+  cursor: pointer;
+  background-color: #e6e6e6;
+}
+button:active,
+input[type="submit"]:active {
+  background-color: #cccccc;
+}
+a.btn {
+  padding: 0.67em;
+  border-radius: 3px;
+  border: 1px solid #CCCCCC;
+  background-color: #ffffff;
+  color: #000000;
+  text-decoration: none;
+}
+a.btn.btn-primary {
+  background-color: #ff5454;
+  color: #ffffff;
+}
+a.btn.btn-primary:hover {
+  background-color: #ff2121;
+}
+a.btn.btn-primary:active {
+  background-color: #ed0000;
+}
+a.btn:hover {
+  background-color: #e6e6e6;
+}
+a.btn:active {
+  background-color: #cccccc;
+}
+.img-round {
+  border-radius: 50%;
+}
+.media {
+  vertical-align: bottom;
+}
+.media img {
+  max-width: 125px;
+  max-height: 125px;
+  margin: 10px;
+  display: inline-block;
+  float: left;
+}
+.media .form-group {
+  margin-top: 80px;
+  float: left;
+}
+.media:before,
+.media:after {
+  content: "";
+  display: table;
+}
+.media:after {
+  clear: both;
+}
+.row-image {
+  border-radius: 50%;
+  max-height: 50px;
+  max-width: 50px;
+}
+.alert {
+  padding: 15px;
+  margin: 10px 0;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  font-size: 0.9em;
+}
+.alert.alert-danger {
+  color: #a94442;
+  background-color: #f2dede;
+  border-color: #ebccd1;
+}
+.alert.alert-danger .alert-link {
+  color: #843534;
+}
+.alert.alert-success {
+  color: #3c763d;
+  background-color: #dff0d8;
+  border-color: #d6e9c6;
+}
+.alert.alert-success .alert-link {
+  color: #2b542c;
+}
+.alert.alert-info {
+  color: #31708f;
+  background-color: #d9edf7;
+  border-color: #bce8f1;
+}
+.alert.alert-info .alert-link {
+  color: #245269;
+}
+.alert.alert-warning {
+  color: #8a6d3b;
+  background-color: #fcf8e3;
+  border-color: #faebcc;
+}
+.alert.alert-warning .alert-link {
+  color: #66512c;
+}
+.form-group.has-error label,
+.form-group.has-error .help-block,
+.form-group.has-error .help-text,
+.form-group.has-error .form-control {
+  color: #a94442;
+}
+.form-group.has-error .form-control {
+  border: 1px solid #a94442;
+}
+.table {
+  border-spacing: none;
+  border-collapse: collapse;
+  width: 100%;
+}
+.table tr {
+  border-bottom: 1px solid #ccc;
+  line-height: 2em;
+}
+.table tr.row-error {
+  background-color: #f2dede;
+  border-color: #ebccd1;
+  color: #a94442;
+}
+.table tr.row-error a {
+  color: #843534;
+}
+.table tr td,
+.table tr th {
+  padding-right: 1em;
+}
+.table tr th {
+  background-color: #4d4d4d;
+  color: #ffffff;
+  text-align: left;
+}
