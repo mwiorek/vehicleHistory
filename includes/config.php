@@ -14,10 +14,12 @@ define('DIR_WS', ''); // virtual file directory (webdirectories)
 
 define('SMARTY_DIR', DIR_FS . '/Smarty/');
 
-define('HTTP_SERVER', 'http://127.0.0.1'); 
-define('HTTPS_SERVER', 'https://127.0.0.1'); 
+define('HTTP_SERVER', 'http://mwiorek.se'); 
 
-define('SSL_ENABLED', true);
+//define('HTTP_SERVER', 'http://127.0.0.1'); 
+//define('HTTPS_SERVER', 'https://127.0.0.1'); 
+
+define('SSL_ENABLED', false);
 
 define('DIR_WS_MEDIA', 'media/');
 
@@ -26,7 +28,8 @@ define('DIR_WS_INCLUDES', 'includes/');
 define('DIR_WS_CLASSES', 'classes/');
 
 //DB credentials are defined in the databaseConnection Class /includes/classes/databaseConnection.php
-define('APP_NAME', 'Fleet manager');
+
+define('APP_NAME', 'Vehicle History Information');
 define('MAIL_FROM_EMAIL', 'no-reply@example.com');
 define('MAIL_FROM_NAME', APP_NAME);
 
